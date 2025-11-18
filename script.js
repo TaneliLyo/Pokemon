@@ -21,9 +21,9 @@ document.getElementById('pokemonForm').addEventListener('submit', function(event
         document.getElementById('pokemonTiedot').innerHTML = `
           <h2>${nimi}</h2>
           <img src="${kuva}" alt="${nimi}">
-          <p>Tyyppi: ${tyyppi}</p>
-          <p>Paino: ${paino} kg</p>
-          <p>Pituus: ${pituus} m</p>
+          <p>Type: ${tyyppi}</p>
+          <p>Weight: ${paino} kg</p>
+          <p>Height: ${pituus} m</p>
         `;
       })
       .catch(error => {
